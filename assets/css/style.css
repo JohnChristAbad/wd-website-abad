@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  
+
+  /* Nav */
+  nav {
+    height: 70px;
+    background: rgb(20, 20, 20);
+    color: rgb(220, 220, 220);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .nav-items,
+  .overview,
+  .account {
+    display: flex;
+  }
+  .overview {
+    margin-right: 4rem;
+  }
+  
+  .logo h2 {
+    text-decoration: overline;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 0.5rem;
+  }
+  nav li {
+    list-style: none;
+    margin: 0 0.5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+  }
+  nav a:hover {
+    color: #ffffff;
+  }
+  nav a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #ffffff;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+  }
+  nav a:hover::after {
+    width: 100%;
+  }
+
+.header{
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 3%;
+    font-family: 'Times New Roman';
+  }
+
+.content{
+    color: #ffffff;
+    font-size: 35px;
+    padding-left: 6%;
+    font-family: 'Times New Roman';
+}
+
+  section{
+    width: 100vw;
+    height: 260vh;
+    background-image: url("../images/HD-wallpaper-black-solid-plain-dark.jpg");
+  }
